@@ -68,7 +68,7 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 
 
 
-    });
+    
 });
 /////////////////////////
 ////////////////////////
