@@ -343,15 +343,15 @@ client.on('message', message => {
     if (message.content === '.help') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
-        .setDescription('**برفكس البوت (.)**')
-        .addField('.play', 'لتشغيل اغنية')
-        .addField('.join', 'دخول رومك الصوتي')
-        .addField('.disconnect', 'الخروج من رومك الصوتي')
-        .addField('.skip', 'تخطي الأغنية')
-        .addField('.pause', 'ايقاف الاغنية مؤقتا')
-        .addField('.resume', 'تكملة الاغنية')
-        .addField('.queue', 'اظهار قائمة التشغيل')
-        .addField('.np', 'اظهار الاغنية اللي انت مشغلها حاليا')
+        .setDescription('**برفكس البوت (M)**')
+        .addField('Mplay', 'لتشغيل اغنية')
+        .addField('Mjoin', 'دخول رومك الصوتي')
+        .addField('Mdisconnect', 'الخروج من رومك الصوتي')
+        .addField('Mskip', 'تخطي الأغنية')
+        .addField('Mpause', 'ايقاف الاغنية مؤقتا')
+        .addField('Mresume', 'تكملة الاغنية')
+        .addField('Mqueue', 'اظهار قائمة التشغيل')
+        .addField('Mnp', 'اظهار الاغنية اللي انت مشغلها حاليا')
       message.channel.send(helpEmbed);
     }
 });
