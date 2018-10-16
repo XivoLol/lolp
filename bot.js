@@ -18,7 +18,7 @@ const fs = require('fs');
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = ".";
+const prefix = "M";
 /////////////////////////
 ////////////////////////
 
@@ -42,7 +42,7 @@ client.on('message', async msg =>{
     }
 });
 
-const adminprefix = ".";
+const adminprefix = "M";
 const devs = ['490891548494659586'];
 client.on('message', message => {//for dev
   var argresult = message.content.split(` `).slice(1).join(' ');
